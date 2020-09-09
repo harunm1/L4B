@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F00000"
+    android:onClick="playA"
+    android:orientation="vertical"
+    tools:context=".Alphabets">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/letter_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playA"
+            app:srcCompat="@drawable/letter_a" />
+
+        <ImageView
+            android:id="@+id/letter_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playB"
+            app:srcCompat="@drawable/letter_b" />
+
+        <ImageView
+            android:id="@+id/letter_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playC"
+            app:srcCompat="@drawable/letter_c" />
+
+        <ImageView
+            android:id="@+id/letter_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playD"
+            app:srcCompat="@drawable/letter_d" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/letter_e"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:onClick="playE"
+            app:srcCompat="@drawable/letter_e" />
+
+        <ImageView
+            android:id="@+id/letter_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playF"
+            app:srcCompat="@drawable/letter_f" />
+
+        <ImageView
+            android:id="@+id/letter_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playG"
+            app:srcCompat="@drawable/letter_g" />
+
+        <ImageView
+            android:id="@+id/letter_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playH"
+            app:srcCompat="@drawable/letter_h" />
+
+        <ImageView
+            android:id="@+id/letter_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playI"
+            app:srcCompat="@drawable/letter_i" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/letter_j"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playJ"
+            app:srcCompat="@drawable/letter_j" />
+
+        <ImageView
+            android:id="@+id/letter_k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playK"
+            app:srcCompat="@drawable/letter_k" />
+
+        <ImageView
+            android:id="@+id/letter_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playL"
+            app:srcCompat="@drawable/letter_l" />
+
+        <ImageView
+            android:id="@+id/letter_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playM"
+            app:srcCompat="@drawable/letter_m" />
+
+        <ImageView
+            android:id="@+id/letter_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playN"
+            app:srcCompat="@drawable/letter_n" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/letter_o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playO"
+            app:srcCompat="@drawable/letter_o" />
+
+        <ImageView
+            android:id="@+id/letter_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playP"
+            app:srcCompat="@drawable/letter_p" />
+
+        <ImageView
+            android:id="@+id/letter_q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playQ"
+            app:srcCompat="@drawable/letter_q" />
+
+        <ImageView
+            android:id="@+id/letter_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playR"
+            app:srcCompat="@drawable/letter_r" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/letter_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playS"
+            app:srcCompat="@drawable/letter_s" />
+
+        <ImageView
+            android:id="@+id/letter_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playT"
+            app:srcCompat="@drawable/letter_t" />
+
+        <ImageView
+            android:id="@+id/letter_u"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playU"
+            app:srcCompat="@drawable/letter_u" />
+
+        <ImageView
+            android:id="@+id/letter_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playV"
+            app:srcCompat="@drawable/letter_v" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/letter_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playW"
+            app:srcCompat="@drawable/letter_w" />
+
+        <ImageView
+            android:id="@+id/letter_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playX"
+            app:srcCompat="@drawable/letter_x" />
+
+        <ImageView
+            android:id="@+id/letter_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playY"
+            app:srcCompat="@drawable/letter_y" />
+
+        <ImageView
+            android:id="@+id/letter_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playZ"
+            app:srcCompat="@drawable/letter_z" />
+    </LinearLayout>
+</LinearLayout>

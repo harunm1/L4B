@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Nurseries">
+
+    <ImageView
+        android:id="@+id/twinkle"
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:onClick="playTwinkle"
+        app:srcCompat="@drawable/twinkle" />
+
+    <ImageView
+        android:id="@+id/black_sheep"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:onClick="playBlackSheep"
+        app:srcCompat="@drawable/blacksheep" />
+
+    <ImageView
+        android:id="@+id/spider"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:onClick="playSpider"
+        app:srcCompat="@drawable/spider" />
+
+    <ImageView
+        android:id="@+id/humpty"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:onClick="playHumpty"
+        app:srcCompat="@drawable/humpty" />
+</LinearLayout>
