@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Alphabets"></activity>
+        <activity android:name=".Twinkle"></activity>
+        <activity android:name=".Humpty" />
+        <activity android:name=".Spider" />
+        <activity android:name=".BlackSheep" />
+        <activity android:name=".Alphabets" />
         <activity android:name=".Colours" />
         <activity android:name=".Nurseries" />
         <activity android:name=".Shapes" />

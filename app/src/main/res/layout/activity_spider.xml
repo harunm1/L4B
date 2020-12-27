@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#F44336"
+    android:orientation="vertical"
+    tools:context=".Spider">
+
+    <ImageView
+        android:id="@+id/spider"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        app:srcCompat="@drawable/spider" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="146dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="play"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="146dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="pause"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="146dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:onClick="stop"
+        android:text="Stop" />
+</LinearLayout>
